@@ -2,32 +2,40 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/img/favicon.svg">
+    <!-- link para folha de estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Sucess</title>
 </head>
 
 <body>
     <!-- cabeçalho da pagina -->
-    <header>
-        <div id="header_content">
-            <!-- Titulo do Cabeçalho -->
-            <div id="titulo">
-                <a href="#">Universo</a>
+    <header class="flex menu_container">
+        <div id="header_content" class="menu_content">
+            <!-- Contéudo do Cabeçalho -->
+            <div id="menu_content_sucess">
+                <a href="index.html">Universo</a>
             </div>
         </div>
     </header>
 
     <!-- Seção Principal da Pagina -->
     <main>
-        <section id="home">
-            <article id="home_texto">
+        <section id="home" class="flex home_container_sucess">
+            <article id="home_sucess" class="flex">
 
                 <h1>E-mail enviado com Sucesso!</h1>
-                <p>Obrigado por entrar em contato, logo mais retornarei sua mensagem!</p>
+                <h4>Obrigado por entrar em contato, logo mais retornarei sua mensagem!</h4>
 
-                <a href="index.html">Voltar</a>
+                <a href="index.html" target="_blank" class="botao" >Voltar</a>
 
             </article>
         </section>
@@ -35,7 +43,7 @@
     </main>
 
     <!-- Seção Rodapé -->
-    <footer>
+    <footer class="flex">
         Feito com 🧡 por Vinicius Ribeiro de Oliveira - 2025
     </footer>
 
