@@ -29,7 +29,7 @@
     <header class="flex menu_container">
         <div id="header_content" class="menu_content">
             <div id="titulo">
-                <a href="#">Universo Dev</a>
+                <a href="#">Portfólio do Vinícius</a>
             </div>
             <div id="menu" class="flex">
                 <nav>
@@ -60,18 +60,7 @@
 
         <!-- Seção About da página -->
         <section id="about" class="flex about_container">
-            <img src="./assets/img/user_01.svg" alt="Foto perfil do Github">
-            <article id="about_texto" class="flex about_content">
-                <h1>Sobre mim</h1>
-                <p>Sou formado em Análise e Desenvolvimento de Sistemas e estou no processo de transição de carreira, saindo da usinagem para tecnologia. Trabalhei anos como programador CNC, onde desenvolvi conceitos importantes para a área de Back-end.
-
-                    Tenho conhecimento em Java, Spring Boot, Typescript , Javascript, NestJs e React. Atualmente, trabalho como Freelancer, desenvolvendo projetos com essas tecnologias.</p>
-                <div id="about_github" class="github_info">
-                    <a href="https://github.com/viniciusoliveira-27" target="_blank" class="botao">Github</a>
-                    <p>200 Seguidores</p>
-                    <p>40 Repositórios</p>
-                </div>
-            </article>
+            
         </section>
 
         <!-- Seção Contact da página -->
@@ -92,7 +81,11 @@
                 </div>
             </article>
 
-            <form action="" method="POST">
+            <form action="https://formsubmit.co/4e4d2a58b8520d15c35e8dcd4929837b" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
+
                 <label for="nome">Nome</label>
                 <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
                 <span id="txtNome"></span>
@@ -114,8 +107,10 @@
 
     <!-- Rodapé -->
     <footer class="flex">
-        Feito com 🧡 por Vinícius Ribeiro de Oliveira - 2025
+        Feito por Vinícius Ribeiro de Oliveira - 2025
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

@@ -179,6 +179,9 @@ h4 {
     margin: 1rem auto;
     padding: 0 1rem;
 }
+.home_container_sucess a{
+    color: var(--blue-800);
+}
 
 #home_sucess {
     width: 50vw;
